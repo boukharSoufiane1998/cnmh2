@@ -5,7 +5,7 @@
 - medecin connection
 
 ### problème à résoudre
- #### admin 
+
  - ajeter le logo de CNMH 
  - Ce message (The email field is required.) doit être en français
  - Ce message (The password field is required.) doit être en français
