@@ -3,19 +3,21 @@
 - admin connection
 - social connection
 - medecin connection
-- 
+
 ## 2.   Problem de resoudre
 
 ### admin connection
 ![connection](images-test-authentification-cnmh/login.png)
 #### 1. Logo 
 
-- Ce titre `(CNMH)` devrait être supprimé et le logo cnmh ajouté
+- Ce titre `(CNMH)` devrait être supprimé et le `logo` cnmh ajouté
 
 ![Logo](images-test-authentification-cnmh/logocnmh.png)
 
-- Lorsque vous cliquez sur ce bouton, vous serez redirigé vers cette page
-   
+- Lorsque vous cliquez sur ce bouton, vous serez `redirigé` vers cette page  `(http://127.0.0.1:8000/home)` cette page `(NOT FOUND)`
+
+
+
 ![btnLogo](images-test-authentification-cnmh/btnlogo28.png)
 
 #### 2. Informations qui apparaissent dans les champs de saisie
@@ -35,3 +37,7 @@ Cette message doit être rédigée en français
 Cette méthode ne fonctionne pas.
 
 ![méthode souvenir](images-test-authentification-cnmh/methode-se-souvenir-moi27.png)
+
+#### 5. Message error input password
+
+![error-masseg-input-password](images-test-authentification-cnmh/massegerrorinputpassword.png)
