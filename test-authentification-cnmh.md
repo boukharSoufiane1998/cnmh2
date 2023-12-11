@@ -10,34 +10,41 @@
 ![connection](images-test-authentification-cnmh/login.png)
 #### 1. Logo 
 
-- Ce titre `(CNMH)` devrait être supprimé et le `logo` cnmh ajouté
+- Le titre `(CNMH)` devrait être supprimé et remplacé par le logo `CNMH`.
+
 
 ![Logo](images-test-authentification-cnmh/logocnmh.png)
 
-- Lorsque vous cliquez sur ce bouton, vous serez `redirigé` vers cette page  `(http://127.0.0.1:8000/home)` cette page `(NOT FOUND)`
 
+- En cliquant sur ce bouton, vous êtes redirigé vers cette page `(http://127.0.0.1:8000/home)`, qui affiche `(NOT FOUND)`.
 
 
 ![btnLogo](images-test-authentification-cnmh/btnlogo28.png)
 
 #### 2. Informations qui apparaissent dans les champs de saisie
 
-Les `input` doivent être vides au début du processus de `login`.
+Les champs `input` doivent être vides au début du processus de connexion.
 
 ![Informations](images-test-authentification-cnmh/infodeleted.png)
 
 #### 3. Messages d'erreur
 
-Cette message doit être rédigée en français
+Les messages d'erreur doivent être rédigés en français.
+
 
 ![masseg error](images-test-authentification-cnmh/massegError26.png)
 
 #### 4. méthode `(de se souvenir de moi)`
 
-Cette méthode ne fonctionne pas.
+
+La méthode de `de se souvenir de moi` ne fonctionne pas.
+
+
 
 ![méthode souvenir](images-test-authentification-cnmh/methode-se-souvenir-moi27.png)
 
 #### 5. Message error input password
+
+Si la valeur de `l'input` du mot de passe est `incorrecte`, un message d'erreur apparaît dans la `input` de `l'e-mail`
 
 ![error-masseg-input-password](images-test-authentification-cnmh/massegerrorinputpassword.png)
